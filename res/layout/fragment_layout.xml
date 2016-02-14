@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ccffff">
+    <EditText android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <EditText android:id="@+id/tester"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#660033"
+        android:textSize="20sp"
+        android:hint="@string/hint"/>
+    <Button android:id="@+id/startTrain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/btn_start"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <Button android:id="@+id/stopTrain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/btn_stop"
+        android:textColor="#000"/>
+    <TextView android:id="@+id/notice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <TextView android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#000"/>
+    
+
+</LinearLayout>

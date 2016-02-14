@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">身份验证</string>
+    
+    <string name="train_activity_name">训练</string>
+
+    <string name="guide">请选择上方导航里的训练内容</string>
+    
+    <string name="clear_data">清除数据</string>
+    <string name="export_data">导出数据</string>
+    
+    <string name="train">训练</string>
+    <string name="login">登陆</string>
+    
+    <string name="hint">请输入用户名</string>
+    <string name="btn_start">开始训练</string>
+    <string name="btn_stop">停止训练</string>
+    
+    <string name="status">当前状态</string>
+    <string name="notice">请在下方列表栏中选一项活动进行身份验证</string>
+    <string name="start_identify">开始验证</string>
+    
+    <string name="login_notice">按下登陆按钮,输入动作登陆进个人信息界面</string>
+    
+    <string name="login_activity_name">登陆</string>
+    <string name="person_activity_name">个人信息</string>
+</resources>

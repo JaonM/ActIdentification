@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.actidentification"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18"/>
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.actidentification.activity.IdentityActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.actidentification.activity.TrainActivity"
+            android:label="@string/train_activity_name"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.actidentification.activity.LoginActivity"
+            android:label="@string/login_activity_name"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.actidentification.activity.PersonActivity"
+            android:label="@string/person_activity_name"
+            android:launchMode="singleTop"/>
+    </application>
+
+</manifest>
